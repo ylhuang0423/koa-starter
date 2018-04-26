@@ -9,18 +9,18 @@
     "build": "tsc"
   },
   "dependencies": {
-    "koa": "^2.4.1",
+    "koa": "^2.5.0",
     "koa-bodyparser": "^4.2.0",
-    "koa-router": "^7.3.0",
+    "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",
     "koa2-history-api-fallback": "^0.0.5",
     "mysql": "^2.15.0",
-    "reflect-metadata": "^0.1.10",
+    "reflect-metadata": "^0.1.12",
     "typeorm": "^0.2.3"
   },
   "devDependencies": {
-    "@types/koa": "^2.0.43",
-    "@types/node": "^8.5.2",
-    "typescript": "^2.6.2"
+    "@types/koa": "^2.0.45",
+    "@types/node": "^9.6.6",
+    "typescript": "^2.8.3"
   }
 }
