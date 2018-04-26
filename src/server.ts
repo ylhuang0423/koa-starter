@@ -20,5 +20,5 @@ createConnection().then(async connection => {
 
   routes.forEach(route => router[route.method]('/api'+route.path, route.action))
 
-  app.listen(3000)
+  app.listen(3000, () => console.log('Server is started.'))
 }).catch(err => console.error(err))

@@ -16,7 +16,7 @@
     "koa2-history-api-fallback": "^0.0.5",
     "mysql": "^2.15.0",
     "reflect-metadata": "^0.1.10",
-    "typeorm": "^0.1.9"
+    "typeorm": "^0.2.3"
   },
   "devDependencies": {
     "@types/koa": "^2.0.43",
