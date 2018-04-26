@@ -1,10 +1,10 @@
 import 'reflect-metadata'
 import { createConnection } from "typeorm"
-import * as Koa from 'koa'
-import * as Router from 'koa-router'
-import * as bodyParser from 'koa-bodyparser'
-import * as serve from 'koa-static'
-import * as history from 'koa2-history-api-fallback'
+import Koa from 'koa'
+import Router from 'koa-router'
+import bodyParser from 'koa-bodyparser'
+import serve from 'koa-static'
+import history from 'koa2-history-api-fallback'
 import routes from './routes'
 
 createConnection().then(async connection => {
