@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import { createConnection } from "typeorm"
+import { createConnection } from 'typeorm'
 import Koa from 'koa'
 import Router from 'koa-router'
 import bodyParser from 'koa-bodyparser'
